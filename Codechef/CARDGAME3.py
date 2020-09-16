@@ -15,13 +15,6 @@ def check_winner(c,r):
     else:
         return 0, c_fucku
 
-# def digit_sum(num):
-#     num_string_list = [digit for digit in str(num)]
-#     sum_digits = 0
-#     for item in num_string_list:
-#         sum_digits+=int(item)
-#     return sum_digits
-
 if __name__ =='__main__':
     t = int(input())
     answers = []
